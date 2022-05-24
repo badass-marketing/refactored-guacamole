@@ -6,13 +6,9 @@ a2 = 0
 
 while a1 > 0:
     dash = a1 % 10
-    print(dash)
     a1 = a1 // 10
-    print(a1)
-
 
     a2 = a2 * 10 + dash
-    print(a2)
 print("Получите ответ -->: " + str(a2))
 
 
