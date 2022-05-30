@@ -2,7 +2,7 @@
 
 
 
-# a = int(input("Input numbers, then hit 'Space/Enter:' "))
+
 
 
 sum = 0
@@ -10,7 +10,7 @@ count = 0
 max = 0
 min = None
 arithmetic_mean = 0
-# , count, max, min, arithmetic_mean
+
 while True:
     s = input("Enter a number, then show your ☞ 😉HATE⏎😁 for 💻apple🍏 : ")
     if not s:
