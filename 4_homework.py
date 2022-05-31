@@ -15,15 +15,14 @@ else:
 print("Список простых чисел: ")
 
 def p(x):
-	for d in range(2, int(x ** 0.5) + 1):
-		if x % d == 0:
-			return False
-		else:
-			return True
+    for d in range(2, int(x ** 0.5) + 1):
+        if x % d == 0:
+            return False
+        else:
+            return True
 
-
-for i in range(10, n):
-	if p(i) == True:
-		print(i)
+for i in range(2, n):
+    if p(i) == True:
+        print(i)
 
 
